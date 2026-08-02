@@ -1,7 +1,27 @@
 aid: tedi
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tedi.png
 name: TEDI
-description: TEDI is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  TEDI (Tecnologia y Educacion Innovadora) is a Latin American EdTech platform delivering
+  professional training for the construction and engineering industries under the motto
+  "Mejores profesionales, mejores paises." It runs 150+ live and recorded courses each month
+  covering BIM, VDC, Lean management, and project management, plus Autodesk/PMI-aligned
+  certifications, an exclusive construction job board, a professional community, the EDI AI
+  learning assistant, and a TEDICOINS rewards system. TEDI reports 50,000+ certified students
+  across 18+ countries with 150+ expert instructors, and is backed by 500 Global. The company
+  operates a consumer-facing web platform (tedivirtual.com / tedicomunidad.com) and, as of this
+  enrichment pass, publishes no public API, developer portal, or technical documentation.
 url: https://raw.githubusercontent.com/api-evangelist/tedi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Education
+- EdTech
+- Construction
+- Engineering
+- Professional Training
+- Certification
+- Latin America
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,16 @@ maintainers:
 common:
 - type: Website
   url: https://tedivirtual.com
+- type: TermsOfService
+  url: https://tedivirtual.com/terminos-y-condiciones
+- type: PrivacyPolicy
+  url: https://tedivirtual.com/terminos-y-condiciones
+- type: Support
+  url: https://tedivirtual.com/soporte-cliente
+- type: DomainSecurity
+  url: security/tedi-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
